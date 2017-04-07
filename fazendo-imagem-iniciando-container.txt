@@ -1,0 +1,9 @@
+
+# Doing Image and put to run Container
+
+```
+ sudo docker build -t archiva-app .
+ sudo docker run -itd --name archiva-aghu -p 8081:8080 archiva-aghu
+ sudo docker start archiva-app
+```
+Ther Archivar application is running in http://localhost:8081
